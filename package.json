@@ -1,0 +1,28 @@
+{
+  "name": "nestjs-usecases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "type-fest": "^5.4.4",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^11.1.13",
+    "@nestjs/cqrs": "^11.0.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "uuid": "^13.0.0"
+  }
+}
