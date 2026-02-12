@@ -6,8 +6,7 @@ import {
   USE_CASE_COMMAND_CLASS,
   USE_CASE_HANDLER_CLASS,
   USE_CASE_HANDLER_METHOD,
-} from "./constants";
-import { COMMAND_BUS } from "./tokens";
+} from "./consts";
 import {
   ExplicitUseCaseClass,
   InferredUseCasePayload,
@@ -63,5 +62,3 @@ export const UseCaseHandler = <T extends UseCase>(
 ) => {
   Reflect.defineMetadata(USE_CASE_HANDLER_METHOD, descriptor.value, target);
 };
-
-export const InjectUseCaseCommandBus = () => Inject(COMMAND_BUS);

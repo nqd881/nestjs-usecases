@@ -1,5 +1,5 @@
 import { Class } from "type-fest";
-import { USE_CASE_COMMAND_CLASS, USE_CASE_HANDLER_CLASS } from "./constants";
+import { USE_CASE_COMMAND_CLASS, USE_CASE_HANDLER_CLASS } from "./consts";
 import { ExplicitUseCaseHandlerClass } from "./types";
 import { ExplicitUseCaseCommandClass } from "./command";
 import { ClassStatic } from "./util-types";
